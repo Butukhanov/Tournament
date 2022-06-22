@@ -1,15 +1,11 @@
-package ru.netology.manager.test;
+package ru.netology.manager;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.CsvFileSource;
 import ru.netology.domain.Player;
 import ru.netology.exeption.NotRegisteredException;
-import ru.netology.manager.Game;
-
 import java.util.ArrayList;
 import java.util.Collection;
 
